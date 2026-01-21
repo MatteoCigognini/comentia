@@ -1,0 +1,45 @@
+.toast {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 20px;
+}
+
+.content {
+    height: auto;
+    width: 100%;
+}
+
+.icon {
+    height: auto;
+    width: auto;
+    font-size: 2em;
+    color: inherit;
+}
+
+.title {
+    font-size: var(--font-size--medium);
+    font-weight: 700;
+}
+
+.description {
+    font-size: var(--font-size--small);
+    font-weight: 400;
+}
+
+.closeButton {
+    height: 40px;
+    width: 40px;
+    border-radius: var(--border-radius);
+    border: 0;
+    display: grid;
+    place-items: center;
+    font-size: var(--font-size--medium);
+    color: inherit;
+    cursor: pointer;
+    background-color: transparent;
+}

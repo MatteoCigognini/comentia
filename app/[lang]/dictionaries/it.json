@@ -1,0 +1,65 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "pricing": "Prezzi",
+        "features": "Features"
+    },
+    "homepage": {
+        "banner": {
+            "title": "Documentazione e **commenti automatici**, locali e **sicuri**.",
+            "subtitle": "",
+            "description": "Analizza il tuo codice, genera docstring e commenti chiari. Nessun upload. Nessuna modifica senza consenso.",
+            "cta": "Prova ora gratis",
+            "cta2": "Mi interessa"
+        }
+    },
+    "app": {},
+    "auth": {
+        "signIn": "Accedi",
+        "signUp": "Registrati",
+        "signOut": "Esci dall'account",
+        "dontHaveAnAccount": "Non hai ancora un account?",
+        "alreadyHaveAccount": "Hai già un account?",
+        "verificationCodeSent": "Ti abbiamo inviato un codice di verifica alla tua email"
+    },
+    "generic": {
+        "pricing": "Prezzi",
+        "outlet": "Outlet",
+        "contactUs": "Contattaci",
+        "getStarted": "Inizia ora",
+        "exit": "Esci"
+    },
+    "loadings": {
+        "loading": "Caricamento..."
+    },
+    "errors": {
+        "error": "Errore",
+        "auth": {
+            "invalidEmailFormat": "Il formato email non è valido",
+            "passwordTooShort": "La password è troppo corta, minimo 8 caratteri",
+            "emailAlreadyExists": "L'email è già registrata",
+            "wrongPassword": "Password errata",
+            "userNotFound": "Utente non trovato"
+        },
+        "invalidRequest": "La richiesta non è valida",
+        "tooManyRequests": "Hai effettuato troppe richieste",
+        "internalServerError": "Errore interno del server"
+    },
+    "fields": {
+        "firstname": "Nome",
+        "lastname": "Cognome",
+        "company": "Azienda",
+        "companyVatNumber": "Partita IVA",
+        "companySector": "Settore azienda",
+        "email": "Email",
+        "password": "Password",
+        "verificationCode": "Codice di verifica"
+    },
+    "buttons": {
+        "submit": "Invia",
+        "save": "Salva",
+        "next": "Avanti",
+        "prev": "Indietro"
+    }
+}

@@ -1,0 +1,28 @@
+.divisor {
+    height: auto;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.line {
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 0;
+    z-index: 1;
+    background-color: var(--color-grey);
+}
+
+.text {
+    height: auto;
+    width: auto;
+    padding: 20px;
+    font-size: var(--font-size-md);
+    font-weight: 400;
+    color: var(--foreground-light);
+    z-index: 10;
+    background-color: var(--background);
+}

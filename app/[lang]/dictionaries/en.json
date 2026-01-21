@@ -1,0 +1,63 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About us",
+        "pricing": "Prezzi",
+        "features": "Features"
+    },
+    "homepage": {
+        "banner": {
+            "title": "Your European partner for large B2B projects",
+            "subtitle": "",
+            "description": "We connect architects, contractors and developers with Italian and Spanish home products.",
+            "cta": "Contact us"
+        }
+    },
+    "auth": {
+        "signIn": "Sign in",
+        "signUp": "Sign up",
+        "signOut": "Sign out",
+        "dontHaveAnAccount": "Don’t have an account yet?",
+        "alreadyHaveAccount": "Already have an account?",
+        "verificationCodeSent": "We have sent a verification code to your email"
+    },
+    "generic": {
+        "pricing": "Pricing",
+        "outlet": "Outlet",
+        "contactUs": "Contact us",
+        "getStarted": "Get started",
+        "exit": "Exit"
+    },
+    "loadings": {
+        "loading": "Loading..."
+    },
+    "errors": {
+        "error": "Error",
+        "auth": {
+            "invalidEmailFormat": "The email format is not valid",
+            "passwordTooShort": "The password is too short, minimum 8 characters",
+            "emailAlreadyExists": "The email is already registered",
+            "wrongPassword": "Incorrect password",
+            "userNotFound": "User not found"
+        },
+        "invalidRequest": "The request is not valid",
+        "tooManyRequests": "You have made too many requests",
+        "internalServerError": "Internal server error"
+    },
+    "fields": {
+        "firstname": "First name",
+        "lastname": "Last name",
+        "company": "Company",
+        "companyVatNumber": "VAT number",
+        "companySector": "Company sector",
+        "email": "Email",
+        "password": "Password",
+        "verificationCode": "Verification code"
+    },
+    "buttons": {
+        "submit": "Submit",
+        "save": "Save",
+        "next": "Next",
+        "prev": "Prev"
+    }
+}

@@ -1,0 +1,48 @@
+.label {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 12px;
+}
+
+.radio {
+    height: 25px;
+    width: 25px;
+    padding: 0;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--color-grey);
+    outline: none;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    background-color: var(--background);
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.radio::before {
+    content: '';
+    height: 15px;
+    width: 15px;
+    border-radius: var(--border-radius);
+    display: block;
+    background-color: var(--background);
+    transition: var(--transition-fast);
+}
+
+.radio:checked {
+    border-color: var(--color-primary);
+}
+
+.radio:checked::before {
+    background-color: var(--color-primary);
+}
+
+.text {
+    font-size: var(--font-size-sm);
+    font-weight: 400;
+    color: var(--foreground);
+}
