@@ -10,15 +10,22 @@ interface PreviewProps {
 
 const LINES = [
     "$ comentia src/",
-    " ✓ 12 funzioni analizzate",
-    " ✓ 9 senza documentazione",
-    " ⚠️ 0 file modificati (preview mode)",
+
+    "🔍 Scansione progetto…",
+    " ↳ Escluse 6 directory (.git, node_modules, .next, dist, coverage)",
+
+    "📦 File analizzati: 14",
+    "ƒ Funzioni trovate: 27",
+    "✍️ Funzioni senza documentazione: 9",
+
+    "🧠 Analisi completata",
+    "⚠️ 0 file modificati (preview mode)",
 ];
 
 export default function CliPreview({ lang, dict }: PreviewProps) {
     const text = useTypingAnimation(LINES, {
         typingSpeed: 35,
-        lineDelay: 500,
+        lineDelay: 600,
         loopDelay: 4000,
     });
 
@@ -26,7 +33,7 @@ export default function CliPreview({ lang, dict }: PreviewProps) {
         <div className={styles.header}>
             <div className={styles.bullets}>
                 <div className={styles.bullet} style={{ backgroundColor: "var(--color-red)" }}></div>
-                <div className={styles.bullet} style={{ backgroundColor: "var(--color-orange)" }}></div>
+                <div className={styles.bullet} style={{ backgroundColor: "var(--color-yellow)" }}></div>
                 <div className={styles.bullet} style={{ backgroundColor: "var(--color-green)" }}></div>
             </div>
         </div>

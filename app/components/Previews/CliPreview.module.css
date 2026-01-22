@@ -2,6 +2,7 @@
     height: auto;
     width: 100%;
     border-radius: var(--border-radius);
+    box-shadow: var(--shadow-soft);
     background-color: #202a39;
 }
 

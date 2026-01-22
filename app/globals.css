@@ -22,7 +22,12 @@
   --color-green-light: #e1ffb1;
 
   --color-orange: #f76e11;
+  --color-orange-dark: #e16615;
   --color-orange-light: #fed2aa;
+
+  --color-yellow: #FFD41D;
+  --color-yellow-dark: #EEA727;
+  --color-yellow-light: #FAEB92;
 
   --color-blue: #1773b0;
   --color-beige: #ece6df;
@@ -51,7 +56,7 @@
   --foreground-extra-light: #b5b5b5;
 
   /* Bordi */
-  --border-radius: 6px;
+  --border-radius: 10px;
   --border-radius-sm: 10px;
 
   /* Transizioni */

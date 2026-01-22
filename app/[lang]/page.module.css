@@ -58,20 +58,8 @@
   display: inline-block;
 }
 
-/* Prossimi eventi */
-.nextEventsSection {
-  height: auto;
-  width: 100%;
-  padding: 100px 0;
-  margin-top: 50px;
-  background-color: var(--background-light);
+.banner .preview {
   animation: var(--animation-slide-down-slow);
-}
-
-.nextEventsSection .title {
-  font-size: var(--font-size-xl);
-  font-weight: 700;
-  color: var(--foreground);
 }
 
 /* Responsive */
