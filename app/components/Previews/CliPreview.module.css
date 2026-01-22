@@ -1,0 +1,40 @@
+.window {
+    height: auto;
+    width: 100%;
+    border-radius: var(--border-radius);
+    background-color: #202a39;
+}
+
+.header {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #2a384b;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.bullets {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.bullets .bullet {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.cli {
+    height: auto;
+    width: 100%;
+    min-height: 200px;
+    padding: 20px;
+    color: #fff;
+}

@@ -7,10 +7,11 @@
     },
     "homepage": {
         "banner": {
-            "title": "Your European partner for large B2B projects",
+            "title": "Automatic, local, and secure documentation and comments.",
             "subtitle": "",
-            "description": "We connect architects, contractors and developers with Italian and Spanish home products.",
-            "cta": "Contact us"
+            "description": "Analyze your code, generate clear docstrings and comments. No uploads. No changes without consent.",
+            "cta": "Try now for free",
+            "cta2": "I'm interested."
         }
     },
     "auth": {

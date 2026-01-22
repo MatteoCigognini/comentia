@@ -8,6 +8,7 @@ import Button from '../components/Buttons/Button'
 import Link from 'next/link'
 import HeroSection from '../components/Sections/HeroSection'
 import { formatText } from '@/utils/text'
+import CliPreview from '../components/Previews/CliPreview'
 
 interface PageProps {
   params: Promise<{ lang: string }>;
@@ -34,6 +35,9 @@ export default async function Home({ params }: PageProps) {
               <Button>{dict.homepage.banner.cta}</Button>
               <Button variant='white'>{dict.homepage.banner.cta2}</Button>
             </div>
+          </div>
+          <div className={styles.preview}>
+            <CliPreview lang={lang} dict={dict} />
           </div>
         </div>
       </Breakpoint>
