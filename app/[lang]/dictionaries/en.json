@@ -12,6 +12,16 @@
             "description": "Analyze your code, generate clear docstrings and comments. No uploads. No changes without consent.",
             "cta": "Try now for free",
             "cta2": "I'm interested."
+        },
+        "problem": {
+            "title": "Documentation is always the last thing",
+            "description": "Writing comments and documentation is essential, but it always ends up at the bottom of the list.\nWhen code changes rapidly, the doc becomes obsolete, incomplete, or simply disappears.",
+            "bullets": []
+        },
+        "solution": {
+            "title": "Automatic documentation, without losing control",
+            "description": "Comentia is a local CLI designed for developers who want to speed up documentation without sacrificing security, control, and transparency.",
+            "bullets": []
         }
     },
     "auth": {

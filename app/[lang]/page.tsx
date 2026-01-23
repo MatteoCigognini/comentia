@@ -9,6 +9,7 @@ import Link from 'next/link'
 import HeroSection from '../components/Sections/HeroSection'
 import { formatText } from '@/utils/text'
 import CliPreview from '../components/Previews/CliPreview'
+import TitledSection from '../components/Sections/TitledSection'
 
 interface PageProps {
   params: Promise<{ lang: string }>;
@@ -40,6 +41,14 @@ export default async function Home({ params }: PageProps) {
             <CliPreview lang={lang} dict={dict} />
           </div>
         </div>
+
+        <TitledSection
+          title={dict.homepage.problem.title}
+          description={dict.homepage.problem.description}></TitledSection>
+        
+        <TitledSection
+          title={dict.homepage.solution.title}
+          description={dict.homepage.solution.description}></TitledSection>
       </Breakpoint>
     </MainContainer>
     <Footer lang={lang} dict={dict} />

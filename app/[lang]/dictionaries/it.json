@@ -12,6 +12,16 @@
             "description": "Analizza il tuo codice, genera docstring e commenti chiari. Nessun upload. Nessuna modifica senza consenso.",
             "cta": "Prova ora gratis",
             "cta2": "Mi interessa"
+        },
+        "problem": {
+            "title": "La **documentazione** è sempre l’ultima cosa",
+            "description": "Scrivere commenti e documentazione è **fondamentale**, ma finisce sempre in fondo alla lista.\nQuando il codice cambia velocemente, la doc diventa obsoleta, incompleta o semplicemente sparisce.",
+            "bullets": []
+        },
+        "solution": {
+            "title": "Documentazione **automatica**, senza perdere il controllo",
+            "description": "Comentia è una CLI locale pensata per sviluppatori che vogliono velocizzare la documentazione senza rinunciare a sicurezza, controllo e trasparenza.",
+            "bullets": []
         }
     },
     "app": {},
