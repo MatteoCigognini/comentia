@@ -12,7 +12,7 @@ const LINES = [
     "$ comentia src/",
 
     "🔍 Scansione progetto…",
-    " ↳ Escluse 6 directory (.git, node_modules, .next, dist, coverage)",
+    " ↳ Escluse 4 directory (.git, node_modules, .next, dist)",
 
     "📦 File analizzati: 14",
     "ƒ Funzioni trovate: 27",
