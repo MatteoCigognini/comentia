@@ -32,10 +32,26 @@
             ],
             "disclaimer": "Nessuna magia. Solo strumenti pensati per sviluppatori."
         },
-        "problem": {
-            "title": "La **documentazione** è sempre l’ultima cosa",
-            "description": "Scrivere commenti e documentazione è **fondamentale**, ma finisce sempre in fondo alla lista.\nQuando il codice cambia velocemente, la doc diventa obsoleta, incompleta o semplicemente sparisce.",
-            "bullets": []
+        "howItWorks": {
+            "title": "Come funziona",
+            "description": "Tre passaggi, nessuna sorpresa.",
+            "timline": [
+                {
+                    "title": "Scansiona il progetto",
+                    "subtitle": "Analizza solo ciò che serve",
+                    "description": "Comentia legge il codice sorgente ed esclude automaticamente cartelle come .git, node_modules, .next, dist."
+                },
+                {
+                    "title": "Mostra un’anteprima",
+                    "subtitle": "Sai cosa succede prima che succeda",
+                    "description": "Visualizzi un report chiaro con funzioni, file e commenti mancanti. Nessun file viene modificato."
+                },
+                {
+                    "title": "Applica solo se vuoi",
+                    "subtitle": "Tu hai sempre l’ultima parola",
+                    "description": "Con un flag esplicito (--apply) puoi scrivere la documentazione nel codice."
+                }
+            ]
         },
         "solution": {
             "title": "Documentazione **automatica**, senza perdere il controllo",

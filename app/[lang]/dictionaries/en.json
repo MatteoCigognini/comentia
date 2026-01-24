@@ -32,15 +32,26 @@
             ],
             "disclaimer": "No magic. Just tools designed for developers."
         },
-        "problem": {
-            "title": "Documentation is always the last thing",
-            "description": "Writing comments and documentation is essential, but it always ends up at the bottom of the list.\nWhen code changes rapidly, the doc becomes obsolete, incomplete, or simply disappears.",
-            "bullets": []
-        },
-        "solution": {
-            "title": "Automatic documentation, without losing control",
-            "description": "Comentia is a local CLI designed for developers who want to speed up documentation without sacrificing security, control, and transparency.",
-            "bullets": []
+        "howItWorks": {
+            "title": "How it works",
+            "description": "Three steps, no surprises.",
+            "timline": [
+                {
+                    "title": "Scan the project",
+                    "subtitle": "Scan only what's needed",
+                    "description": "Comentia reads the source code and automatically excludes folders like .git, node_modules, .next, dist."
+                },
+                {
+                    "title": "Show a preview",
+                    "subtitle": "Know what happens before it happens",
+                    "description": "View a clear report with missing functions, files, and comments. No files are modified."
+                },
+                {
+                    "title": "Apply only if you want",
+                    "subtitle": "You always have the last word",
+                    "description": "With an explicit flag (--apply), you can write documentation in the code."
+                }
+            ]
         }
     },
     "auth": {

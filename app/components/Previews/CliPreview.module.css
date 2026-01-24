@@ -35,7 +35,14 @@
 .cli {
     height: auto;
     width: 100%;
+    max-width: 100%;
     min-height: 300px;
     padding: 20px;
     color: #fff;
+}
+
+.cli pre {
+    max-width: 100%;
+    overflow-x: auto;
+    white-space:pre-wrap;
 }
