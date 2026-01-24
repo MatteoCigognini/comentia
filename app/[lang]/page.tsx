@@ -10,10 +10,14 @@ import HeroSection from '../components/Sections/HeroSection'
 import { formatText } from '@/utils/text'
 import CliPreview from '../components/Previews/CliPreview'
 import TitledSection from '../components/Sections/TitledSection'
+import FeatureCard from '../components/Cards/FeatureCard'
+import { faBoltLightning, faBrain, faShield, faXmark } from '@fortawesome/free-solid-svg-icons'
 
 interface PageProps {
   params: Promise<{ lang: string }>;
 }
+
+const advantagesIconsMap = [faShield, faBrain, faBoltLightning];
 
 export default async function Home({ params }: PageProps) {
   const { lang } = await params;
@@ -44,8 +48,19 @@ export default async function Home({ params }: PageProps) {
 
         {/* Che problema risolve? */}
         <TitledSection
-          title={dict.homepage.problem.title}
-          description={dict.homepage.problem.description}></TitledSection>
+          title={dict.homepage.advantages.title}
+          description={dict.homepage.advantages.description}>
+          <div className={styles.advantages}>
+            {dict.homepage.advantages.cards.map((c, i) => <FeatureCard
+              key={`advantage-${i}`}
+              title={c.title}
+              description={c.description}
+              icon={advantagesIconsMap[i]}
+            />)}
+          </div>
+
+          <p className={styles.disclaimer}>{dict.homepage.advantages.disclaimer}</p>
+        </TitledSection>
 
         {/* Qual'è la soluzione? */}
         <TitledSection

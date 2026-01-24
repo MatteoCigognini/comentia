@@ -13,6 +13,25 @@
             "cta": "Try now for free",
             "cta2": "I'm interested."
         },
+        "advantages": {
+            "title": "Scrivi **meno** documentazione.\nScrivila **meglio**.",
+            "description": "**Comentia** analizza il tuo codice e ti aiuta a documentarlo in modo coerente, sicuro e controllato.",
+            "cards": [
+                {
+                    "title": "No changes without consent",
+                    "description": "Comentia analyzes your code in preview mode.\nYou decide when and what to apply."
+                },
+                {
+                    "title": "Undersstands functions, not just text",
+                    "description": "Use AST to identify truly undocumented functions, methods, and components."
+                },
+                {
+                    "title": "Fast, scriptable, local",
+                    "description": "One command, clear output.\nPerfect for existing workflows, CIs, and repositories."
+                }
+            ],
+            "disclaimer": "No magic. Just tools designed for developers."
+        },
         "problem": {
             "title": "Documentation is always the last thing",
             "description": "Writing comments and documentation is essential, but it always ends up at the bottom of the list.\nWhen code changes rapidly, the doc becomes obsolete, incomplete, or simply disappears.",
