@@ -42,10 +42,12 @@ export default async function Home({ params }: PageProps) {
           </div>
         </div>
 
+        {/* Che problema risolve? */}
         <TitledSection
           title={dict.homepage.problem.title}
           description={dict.homepage.problem.description}></TitledSection>
-        
+
+        {/* Qual'è la soluzione? */}
         <TitledSection
           title={dict.homepage.solution.title}
           description={dict.homepage.solution.description}></TitledSection>
