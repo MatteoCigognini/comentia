@@ -13,6 +13,7 @@ import TitledSection from '../components/Sections/TitledSection'
 import FeatureCard from '../components/Cards/FeatureCard'
 import { faBoltLightning, faBrain, faShield, faXmark } from '@fortawesome/free-solid-svg-icons'
 import TimelineList from '../components/Lists/TimelineList'
+import StepSection from '../components/Sections/StepSection'
 
 interface PageProps {
   params: Promise<{ lang: string }>;
@@ -67,10 +68,7 @@ export default async function Home({ params }: PageProps) {
         <TitledSection
           title={dict.homepage.howItWorks.title}
           description={dict.homepage.howItWorks.description}>
-          <div className={styles.howItWorks}>
-            <TimelineList items={dict.homepage.howItWorks.timline} />
-            <div className={styles.image}></div>
-          </div>
+          <StepSection steps={dict.homepage.howItWorks.timline} />
         </TitledSection>
       </Breakpoint>
     </MainContainer>
