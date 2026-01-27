@@ -66,3 +66,8 @@
     font-weight: 400;
     color: var(--foreground-light);
 }
+
+.step .content .title strong,
+.step .content .description strong {
+    color: var(--color-primary);
+}

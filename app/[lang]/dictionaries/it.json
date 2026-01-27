@@ -37,17 +37,17 @@
             "description": "Tre passaggi, nessuna sorpresa.",
             "timline": [
                 {
-                    "title": "Scansiona il progetto",
+                    "title": "**Scansiona** il progetto",
                     "subtitle": "Analizza solo ciò che serve",
                     "description": "Comentia legge il codice sorgente ed esclude automaticamente cartelle come .git, node_modules, .next, dist."
                 },
                 {
-                    "title": "Mostra un’anteprima",
+                    "title": "**Mostra** un’anteprima",
                     "subtitle": "Sai cosa succede prima che succeda",
                     "description": "Visualizzi un report chiaro con funzioni, file e commenti mancanti. Nessun file viene modificato."
                 },
                 {
-                    "title": "Applica solo se vuoi",
+                    "title": "**Applica** solo se vuoi",
                     "subtitle": "Tu hai sempre l’ultima parola",
                     "description": "Con un flag esplicito (--apply) puoi scrivere la documentazione nel codice."
                 }
