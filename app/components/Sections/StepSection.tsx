@@ -21,7 +21,10 @@ export default function StepSection({ steps }: SectionProps) {
 
     return <div className={styles.section}>
         <div className={styles.steps}>
-            {steps.map((s, i) => <div key={i} className={`${styles.step} ${currentStep === i ? styles.current : ''}`}>
+            {steps.map((s, i) => <div
+                key={i}
+                className={`${styles.step} ${currentStep === i ? styles.current : ''}`}
+            >
                 <div className={styles.bar}></div>
                 <div className={styles.content}>
                     <h3 className={styles.title}>{formatText(s.title)}</h3>

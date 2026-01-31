@@ -35,9 +35,8 @@ export default function Header({ lang, dict, activeLink = '', isTransparent = fa
                     </div>
                     <nav className={`${styles.nav} ${styles.noMobile}`}>
                         <Link href="/" className={`${styles.link} ${activeLink === '' ? styles.active : ''}`}>{dict.header.home}</Link>
-                        <Link href="/features" className={`${styles.link} ${activeLink === 'features' ? styles.active : ''}`}>{dict.header.features}</Link>
                         <Link href="/pricing" className={`${styles.link} ${activeLink === 'pricing' ? styles.active : ''}`}>{dict.header.pricing}</Link>
-                        <Link href="/faq" className={`${styles.link} ${activeLink === 'faq' ? styles.active : ''}`}>FAQ</Link>
+                        <Link href="/blog" className={`${styles.link} ${activeLink === 'blog' ? styles.active : ''}`}>{dict.header.blog}</Link>
                     </nav>
                     <div className={styles.controls}>
                         <Link href={`/${lang}/app`}>
@@ -60,7 +59,7 @@ export default function Header({ lang, dict, activeLink = '', isTransparent = fa
                     <Link href="/" className={`${styles.link} ${activeLink === '' ? styles.active : ''}`}>{dict.header.home}</Link>
                     <Link href="/features" className={`${styles.link} ${activeLink === 'features' ? styles.active : ''}`}>{dict.header.features}</Link>
                     <Link href="/pricing" className={`${styles.link} ${activeLink === 'pricing' ? styles.active : ''}`}>{dict.header.pricing}</Link>
-                    <Link href="/faq" className={`${styles.link} ${activeLink === 'faq' ? styles.active : ''}`}>FAQ</Link>
+                    <Link href="/blog" className={`${styles.link} ${activeLink === 'blog' ? styles.active : ''}`}>Blog</Link>
                 </div>
             </div>
             <div className={styles.backdropSpace} onClick={handleMobileMenuClose}></div>
