@@ -1,7 +1,0 @@
-.container {
-    height: 100dvh;
-    width: 100dvw;
-    display: grid;
-    place-items: center;
-    background-color: var(--background-light);
-}
