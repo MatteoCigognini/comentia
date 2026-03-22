@@ -6,14 +6,14 @@ import styles from './page.module.css'
 import { getDictionary } from './dictionaries'
 import Button from '../components/Buttons/Button'
 import Link from 'next/link'
-import HeroSection from '../components/Sections/HeroSection'
 import { formatText } from '@/utils/text'
 import CliPreview from '../components/Previews/CliPreview'
 import TitledSection from '../components/Sections/TitledSection'
 import FeatureCard from '../components/Cards/FeatureCard'
-import { faBoltLightning, faBrain, faShield, faXmark } from '@fortawesome/free-solid-svg-icons'
-import TimelineList from '../components/Lists/TimelineList'
+import { faBoltLightning, faBrain, faShield } from '@fortawesome/free-solid-svg-icons'
 import StepSection from '../components/Sections/StepSection'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 interface PageProps {
   params: Promise<{ lang: string }>;
@@ -40,7 +40,9 @@ export default async function Home({ params }: PageProps) {
             <p className={styles.description}>{formatText(dict.homepage.banner.description)}</p>
             <div className={styles.actions}>
               <Button>{dict.homepage.banner.cta}</Button>
-              <Button variant='white'>{dict.homepage.banner.cta2}</Button>
+              <Link href={`https://github.com/MatteoCigognini/comentia-cli`} target='_blank'>
+                <Button variant='white'><FontAwesomeIcon icon={faGithub} /> GitHub</Button>
+              </Link>
             </div>
           </div>
           <div className={styles.preview}>
